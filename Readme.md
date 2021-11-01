@@ -4,7 +4,8 @@ Go to C:\Users\\<User Name\>\Documents\Paradox Interactive\Stellaris\mod\
 
 1. Put a new folder in there with "gurkonier_variety" as folder name.
 
-2. Put a file "gurkonier_variety.mod" in there with the content
+2. Put a file "gurkonier_variety.mod" in the "mod"-folder with this content
+   and change \<User Name\> in there:
 ```
 version="0.1"
 tags={
@@ -15,6 +16,7 @@ supported_version="2.8.1"
 path="C:/Users/<User Name>/Documents/Paradox Interactive/Stellaris/mod/gurkonier_variety"
 remote_file_id="2376791378"
 ```
+**Beware: Use normal slashes only. No back slashes!**
 
 1. Pull this repository inside the "gurkonier_variety" folder.
 
@@ -33,9 +35,10 @@ remote_file_id="2376791378"
 
 # Add an Icon
 1. Create a new Icon as .png or .jpg with the size 128x128 or resize a downloaded Icon
-2. If not already done, make the icon black and white. All black parts will be transparent and all the white parts will be golden.
-3. Go to https://9kenm.github.io/stellaris-emblem-maker/ and drag your image file in there.
-4. Download the emblem via the "Download Emblems" Button.
-5. Go to ./flags/\<category\>/ and drag the content of the downloaded zip into this folder.
+2. If you want an emblem in stellaris gold style then continue with step 3. If you want a custom color scheme save your emblem as a .dds-File and continue with step 6.
+3. If not already done, make the icon black and white. All black parts will be transparent and all the white parts will be golden.
+4. Go to https://9kenm.github.io/stellaris-emblem-maker/ and drag your image file in there.
+5. Download the emblem via the "Download Emblems" Button.
+6. Go to ./flags/\<category\>/ and drag the content of the downloaded zip into this folder.
 
 If you want to rename this file (because the name already exists) rename every file in the root-, small- and map-folder.
